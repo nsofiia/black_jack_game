@@ -57,7 +57,7 @@ def black_jack():
         if user_score > 21 and computer_score > 21:
             print("Both lose, try again")
         elif user_score > 21 and computer_score <= 21:
-            print('Oponent wins')
+            print('Opponent wins')
         elif computer_score > 21:
             print("You win")
         elif user_score == 21 and computer_score == 21:
@@ -69,9 +69,9 @@ def black_jack():
         elif user_score == 0:
             print('Black Jack! You WIN')
         elif computer_score == 0:
-            print('Black Jack! Oponent wins')
+            print('Black Jack! Opponent wins')
         else:
-            print("Oponent wins")
+            print("Opponent wins")
 
         black_jack()
     print("exited")
